@@ -62,7 +62,7 @@ export function GameCanvas() {
       });
 
       // Slower spawn rate and max particles
-      if (Math.random() < 0.003 && particles.length < 15) {
+      if (Math.random() < 0.03 && particles.length < 50) {
         particles.push(createRandomParticle(canvas.width, canvas.height));
       }
 
