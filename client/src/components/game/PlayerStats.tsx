@@ -14,7 +14,7 @@ export function PlayerStats() {
   };
 
   const getNextLevelExp = (level: number): number => {
-    let requiredExp = 10;
+    let requiredExp = 100;
     for (let i = 1; i < level; i++) {
       requiredExp = Math.floor(requiredExp * 1.8);
     }
@@ -23,7 +23,7 @@ export function PlayerStats() {
 
   const getCurrentLevelExp = (experience: number, level: number): number => {
     let totalUsed = 0;
-    let requiredExp = 10;
+    let requiredExp = 100;
     
     for (let i = 1; i < level; i++) {
       totalUsed += requiredExp;

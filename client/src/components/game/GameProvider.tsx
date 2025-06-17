@@ -102,9 +102,9 @@ export function GameProvider({ children }: { children: React.ReactNode }) {
       
       const newExperience = prev.experience + totalExperience;
       
-      // Level progression: 10, 25, 50, 100, 200, 400, 800...
+      // Level progression
       let newLevel = 1;
-      let requiredExp = 10;
+      let requiredExp = 100;
       let totalRequired = 0;
       
       while (totalRequired + requiredExp <= newExperience) {
