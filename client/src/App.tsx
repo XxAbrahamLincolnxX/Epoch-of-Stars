@@ -1,6 +1,7 @@
 import * as React from 'react';
-import { GameContainer } from '@/components/game/GameContainer';
-import { GameProvider } from '@/components/game/GameProvider';
+import { GameContainer } from "@/systems/shared/GameContainer";
+import { GameProvider } from "@/systems/shared/GameStateProvider"; // or GameStateProvider if renamed
+
 
 function App() {
   return (

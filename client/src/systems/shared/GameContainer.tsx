@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { GameCanvas } from './GameCanvas';
+import { GameCanvas } from '../phase0/AbsorbtionSystem';
 import { GameUI } from './GameUI';
 
 export function GameContainer() {

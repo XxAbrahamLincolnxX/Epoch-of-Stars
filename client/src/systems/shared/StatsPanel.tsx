@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
-import { useGame } from './GameProvider';
+import { useGame } from './GameStateProvider';
 import { CoreStats } from '@/types/game';
 
 export function StatsPanel() {

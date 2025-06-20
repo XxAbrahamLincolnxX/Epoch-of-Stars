@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { GameState, EvolutionStage, CoreStats, TechNode, EvolutionTrigger } from '@/types/game';
-import { techNodes } from '@/data/techNodes';
-import { evolutionTriggers } from '@/data/evolutionTriggers';
+import { techNodes } from '@/systems/shared/techNodes';
+import { evolutionTriggers } from '@/systems/shared/evolutionTriggers';
 
 interface GameContextType {
   gameState: GameState;

@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
-import { useGame } from './GameProvider';
+import { useGame } from './GameStateProvider';
 
 export function PlayerStats() {
   const { gameState } = useGame();

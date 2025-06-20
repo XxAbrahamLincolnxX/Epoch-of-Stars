@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Progress } from '@/components/ui/progress';
-import { useGame } from './GameProvider';
+import { useGame } from './GameStateProvider';
 import { EvolutionStage } from '@/types/game';
 
 export function EvolutionInfo() {

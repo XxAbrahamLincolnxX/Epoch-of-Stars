@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { useGame } from './GameProvider';
+import { useGame } from './GameStateProvider';
 import { PlayerStats } from './PlayerStats';
 import { StatsPanel } from './StatsPanel';
 import { TechTree } from './TechTree';

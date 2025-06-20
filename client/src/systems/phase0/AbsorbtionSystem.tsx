@@ -1,11 +1,11 @@
 import * as React from 'react';
-import { useGame } from './GameProvider';
-import { particleSpawnConfig } from '@/data/particleSpawnConfig';
+import { useGame } from '../shared/GameStateProvider';
+import { particleSpawnConfig } from '@/systems/shared/particleSpawnConfig';
 
 export function GameCanvas() {
   const canvasRef = React.useRef<HTMLCanvasElement>(null);
   const { gameState, absorbParticle, checkEvolution, updateGameState } = useGame();
-  const animationRef = React.useRef<number>();
+  const animationRef = React.useRef<number | null>(null);
   const particlesRef = React.useRef(gameState.particles);
 
   React.useEffect(() => {

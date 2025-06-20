@@ -2,7 +2,7 @@ import * as React from 'react';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { Progress } from '@/components/ui/progress';
-import { useGame } from './GameProvider';
+import { useGame } from './GameStateProvider';
 
 export function EvolutionPanel() {
   const { gameState, triggerEvolution, canTriggerEvolution } = useGame();
