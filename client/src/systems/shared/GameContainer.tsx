@@ -1,11 +1,11 @@
 import * as React from 'react';
-import { GameCanvas } from '../phase0/AbsorbtionSystem';
+import { Phase0Canvas } from '../phase0/Phase0Canvas';
 import { GameUI } from './GameUI';
 
 export function GameContainer() {
   return (
     <div className="relative w-full h-screen overflow-hidden">
-      <GameCanvas />
+      <Phase0Canvas />
       <GameUI />
     </div>
   );
